@@ -1,6 +1,4 @@
 {
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/.*", "status": 404, "dest": "/my-alquran/src/pages/ErrorPage.tsx" }
-    ]
-}
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  }
+  
