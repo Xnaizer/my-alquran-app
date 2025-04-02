@@ -120,7 +120,7 @@ export default function Home() {
         value={tahun} 
         onChange={(e) => setTahun(e.target.value)}
       >
-        {[...Array(8)].map((_, i) => (
+        {[...Array(2)].map((_, i) => (
           <option key={i} value={(2025 - i).toString()}>{2025 - i}</option>
         ))}
       </select>

@@ -156,7 +156,7 @@ export default function SurahDetail() {
                 Ayat : {item.nomorAyat}
               </h1>
               <div className="max-w-4xl mx-auto py-4 px-4 md:px-8   rounded-lg ">
-                <p className="text-3xl md:text-4xl text-end mb-4 leading-relaxed text-title dark:text-title-dark">
+                <p className="text-3xl md:text-4xl text-end mb-4 leading-[3.5rem] md:leading-[4rem]  text-title dark:text-title-dark">
                   {item.teksArab}
                 </p>
                 <p className="text-gray-600 text-lg md:text-xl dark:text-white">{item.teksLatin}</p>

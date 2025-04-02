@@ -88,7 +88,7 @@ export default function Doa() {
                         filteredDoa.map((item, index) => (
                             <li key={index} className="max-w-4xl mx-auto py-2 px-4 md:px-8 rounded-lg ">
                                 <h1 className="text-gray-600 text-lg md:text-xl dark:text-white  text-center pb-16">{item.judul}</h1>
-                                <h2 className="text-3xl md:text-4xl text-end mb-4 leading-relaxed text-title dark:text-title-dark">{item.arab}</h2>
+                                <h2 className="text-3xl md:text-4xl text-end mb-4 leading-[3.5rem] md:leading-[4rem]  text-title dark:text-title-dark">{item.arab}</h2>
                                 <h2 className="text-text text-base md:text-lg mt-3 dark:text-text-dark pb-4">{item.indo}</h2>
                                 <h2 className="text-gray-600 text-sm md:text-md dark:text-white pt-4">Reference : {item.source}</h2>
                                 <div className="border-t mt-4 max-w-full border-gray-300 dark:border-gray-600 mb-14"></div>

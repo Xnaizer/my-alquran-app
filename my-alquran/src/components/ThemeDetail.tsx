@@ -143,7 +143,7 @@ export default function ThemeDetail() {
               <h1 className="mx-auto max-w-4xl flex text-title dark:text-white text-center text-lg pb-12">
                 Surat: {item.surah} Ayat : {item.ayah}
               </h1>
-              <h3 className="text-3xl md:text-4xl text-end mb-4 leading-relaxed text-title dark:text-title-dark">
+              <h3 className="text-3xl md:text-4xl text-end mb-4 leading-[3.5rem] md:leading-[4rem] text-title dark:text-title-dark">
                 {item.arab}
               </h3>
               <p className="text-gray-600 text-lg md:text-xl dark:text-white pt-4">{item.latin}</p>

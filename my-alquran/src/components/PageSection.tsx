@@ -122,10 +122,10 @@ export default function PageSection() {
               Surat: {item.surah} Ayat: {item.ayah}
             </h1>
             <div className="max-w-4xl mx-auto py-4 px-4 md:px-8 rounded-lg">
-              <p className="text-3xl md:text-4xl text-end mb-4 leading-relaxed text-title dark:text-title-dark">
+              <p className="text-3xl md:text-4xl text-end mb-4 leading-[3.5rem] md:leading-[4rem]  text-title dark:text-title-dark">
                 {item.arab}
               </p>
-              <p className="text-gray-600 text-lg md:text-xl dark:text-white">{item.latin}</p>
+              <p className="text-gray-600 text-lg md:text-xl dark:text-white pt-3">{item.latin}</p>
               <p className="text-text text-base md:text-lg mt-3 dark:text-text-dark">{item.text}</p>
               <div className="border-t mt-4 max-w-full border-gray-300 dark:border-gray-600"></div>
             </div>
